@@ -8,6 +8,7 @@ public class EjercicioNueve {
             return false;
     }
 
+    // Clase main desde donde se ejecuta el programa
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingresa un número para saber si es divisible por 2: ");

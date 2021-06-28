@@ -23,13 +23,19 @@ public class EjercicioCincoN {
         System.out.println("Ingresa el digito a buscar");
         int d = sc.nextInt();
         int count = 0;
-        int i = 1;
-        while(count < n){
-            if(hasMTimesDigit(i,m,d)){
+        //int i = 1;
+        //while(count < n){
+            //if(hasMTimesDigit(i,m,d)){
+                //System.out.println((count + 1) + "- " + i);
+                //count++;
+            //}
+            //i++;
+        //}
+        for(int i = 0; count < n; i++){
+            if(hasMTimesDigit(i, m, d)){
                 System.out.println((count + 1) + "- " + i);
                 count++;
             }
-            i++;
         }
     }
 }
