@@ -19,6 +19,16 @@ public class main {
         q.sort(personas, Comparator.comparing(Persona::getNombre));
 
         Arrays.stream(personas).forEach(System.out::println);
+        System.out.println("------------------------------------------");
+        HeapSortImple h = new HeapSortImple();
+
+        h.sort(personas, Comparator.comparing(Persona::getDni));
+        Arrays.stream(personas).forEach(System.out::println);
+
+        System.out.println("------------------------------------------");
+        BubbleSortImple b = new BubbleSortImple();
+        b.sort(personas, Comparator.comparing(Persona::getNombre));
+        Arrays.stream(personas).forEach(System.out::println);
 
     }
 }
