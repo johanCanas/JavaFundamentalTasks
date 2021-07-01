@@ -3,7 +3,7 @@ package ejercicio3T;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
 

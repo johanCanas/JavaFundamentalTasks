@@ -2,7 +2,7 @@ package ejercicio3M;
 
 import java.util.Arrays;
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
         Precedable p1 = new Persona("Luis", 554321);

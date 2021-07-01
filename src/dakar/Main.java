@@ -2,7 +2,7 @@ package dakar;
 
 import java.util.ArrayList;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Carrera dackar1 = new Carrera(500, 10000, "Dackar 1", 15);
         System.out.println(dackar1);
